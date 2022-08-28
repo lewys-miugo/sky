@@ -491,7 +491,9 @@ ul.services-content {
     cursor: pointer;
     font-size: 18px;
 }
-
+.contact-form:active{
+    margin-bottom: 25px;
+}
 /* Footer*/
 .footer-container {
     max-width: 1170px;
