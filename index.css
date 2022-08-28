@@ -192,9 +192,19 @@ ul.about-content {
     background-position: center;
 }
 
-.about-left {
+.about-left-1 {
     flex-basis: 40%;
-    background-image: url(../images/excavation-2.jpg);
+    background-image: url(./images/excavation-on-3.jpeg);
+}
+
+.about-left-2 {
+    flex-basis: 40%;
+    background-image: url(./images/excavator.jpg);
+}
+
+.about-left-3 {
+    flex-basis: 40%;
+    background-image: url(./images/excavation-on-4.jpeg);
 }
 
 .about-right {
@@ -211,7 +221,7 @@ ul.about-content {
 
 .section-title {
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 5%;
 }
 
@@ -229,10 +239,17 @@ ul.about-content {
 }
 
 @media(max-width:1000px) {
-    .about-left,
+    /* Git.add */
+    .about-left-1,
+    .about-left-2,
+    .about-left-3,
     .about-right {
         flex-basis: 100%;
     }
+    .about-area {
+        margin-bottom: -200px;
+    }
+    /*  */
     .about-content li {
         padding: 8px;
     }
