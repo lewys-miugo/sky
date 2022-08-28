@@ -250,7 +250,11 @@ ul.about-content {
         margin-bottom: -10px;
     }
     .about-areap{
-        margin-top:250px;
+        margin-top:280px;
+    }
+    .about-areac{
+        margin-top:50px
+    }
     /*  */
     .about-content li {
         padding: 8px;
