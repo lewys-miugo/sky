@@ -391,6 +391,7 @@ ul.services-content {
     display: grid;
     align-items: center;
     background-color: #ffff;
+    z-index:500;
     /* margin-top: -5px; */
 }
 
@@ -424,6 +425,7 @@ ul.services-content {
     flex: 50%;
     padding: 30px;
     text-align: center;
+    
 }
 
 .contact-form h1 {
