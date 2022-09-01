@@ -149,6 +149,10 @@ section p {
     margin-bottom: 40px;
     font-size: 25px;
 }
+.banner-area h4 {
+    margin-top: 30px;
+    color: #021d3f;
+}
 
 .banner-area a.banner-btn {
     padding: 15px 35px;
